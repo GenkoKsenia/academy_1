@@ -27,11 +27,19 @@ function setBgColor(color) {
     txt.textContent = randomColor
     txt.style.color = randomColor
 }
+
                                                  
 function functionTwo() {
     console.log("Function Two executed!");
 }
 functionTwo();
+
+
+function functionOne() {
+    console.log("Function One executed!");
+}
+functionOne();                                                 
+
 );
 
 
