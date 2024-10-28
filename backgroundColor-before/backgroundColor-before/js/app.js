@@ -26,7 +26,13 @@ function setBgColor(color) {
     const txt = document.getElementById('txt')
     txt.textContent = randomColor
     txt.style.color = randomColor
-});
+}
+
+function functionOne() {
+    console.log("Function One executed!");
+}
+functionOne();                                                 
+);
 
 
 
